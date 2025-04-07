@@ -5,7 +5,7 @@ import androidx.room.Insert
 
 @Dao
 interface UsuarioDao {
-    @Insert
+   // @Insert
 
-    fun inserir(listaUsuario: MutableList<Usuario>)
+  //  fun inserir(listaUsuario: MutableList<Usuario>)
 }
