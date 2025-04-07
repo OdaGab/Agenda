@@ -10,6 +10,7 @@ data class Usuarios (
     @ColumnInfo(name = "sobrenome") val sobrenome: String,
     @ColumnInfo(name = "idade") val idade: String,
     @ColumnInfo(name = "celular") val celular: String
+    //Tabelas ok
 ){
     @PrimaryKey(autoGenerate = true)
     var uid: Int = 0
